@@ -67,6 +67,6 @@ Autenticação e autorização.  Versionamento da API.  Documentos e logs.  Test
 
 ### Teste Prático 
 
-![imagem1](https://raw.githubusercontent.com/Acmqueiroz/testepratico/main/teste/Casodeteste.png) 
+![imagem1](https://raw.githubusercontent.com/Acmqueiroz/testepratico/master/teste/Casodeteste.png) 
 
-![imagem2](https://raw.githubusercontent.com/Acmqueiroz/testepratico/main/teste/testejson.png)
+![imagem2](https://raw.githubusercontent.com/Acmqueiroz/testepratico/master/teste/testejson.png)
