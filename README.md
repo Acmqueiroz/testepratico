@@ -65,7 +65,8 @@ Verificar códigos de respostas HTTP
 Testar métodos HTTP (GET, POST, PUT,DELETE).  
 Autenticação e autorização.  Versionamento da API.  Documentos e logs.  Testar conformidade.  
 
+### Teste Prático 
 
-![imagem1](https://raw.githubusercontent.com/acmqueiroz/testepratico/main/teste/Casodeteste.png) 
+![imagem1](https://raw.githubusercontent.com/Acmqueiroz/testepratico/main/teste/Casodeteste.png) 
 
-![imagem2](https://raw.githubusercontent.com/acmqueiroz/testepratico/main/teste/testejson.png)
+![imagem2](https://raw.githubusercontent.com/Acmqueiroz/testepratico/main/teste/testejson.png)
