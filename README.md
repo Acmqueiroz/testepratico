@@ -64,3 +64,8 @@ Gerenciar dados de testes ( Ambiente de teste, Dados Realistas).
 Verificar códigos de respostas HTTP  
 Testar métodos HTTP (GET, POST, PUT,DELETE).  
 Autenticação e autorização.  Versionamento da API.  Documentos e logs.  Testar conformidade.  
+
+
+![imagem1](https://raw.githubusercontent.com/acmqueiroz/testepratico/main/teste/Casodeteste.png) 
+
+![imagem2](https://raw.githubusercontent.com/acmqueiroz/testepratico/main/teste/testejson.png)
