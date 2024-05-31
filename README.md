@@ -67,6 +67,25 @@ Autenticação e autorização.  Versionamento da API.  Documentos e logs.  Test
 
 ### Teste Prático 
 
+**Descreva como você testaria a funcionalidade de login de um site.**
+
 ![imagem1](https://raw.githubusercontent.com/Acmqueiroz/testepratico/master/teste/Casodeteste.png) 
 
-![imagem2](https://raw.githubusercontent.com/Acmqueiroz/testepratico/master/teste/testejson.png)
+### Escreva um caso de teste para uma API que retorna a lista de produtos em formato JSON. O caso de teste deve verificar se a resposta tem um código de status 200 e se os dados retornados estão no formato correto.
+
++ Escolhar um método de consumo (inicialize uma solicitação cURL para a URL da API).  
++ Executar a solicitação e captura a resposta e o código de status HTTP.  
++ Conferir se o código de status HTTP é 200.  
+$this->assertEquals(200, $httpCode, 'Status code is not 200');  
++ Conferir se a resposta é um **JSON** válido.  
+$this->assertNotNull($data, 'Response is not a valid JSON');    
++ Conferir se a resposta **JSON** é um array.  
+$this->assertIsArray($data, 'Response data is not an array');  
++ Conferir se cada item do array de produtos tem as chaves esperadas (id, nome, preco).  
+foreach ($data as $product) {  
+     $this->assertArrayHasKey('id', $product);  
+     $this->assertArrayHasKey('nome', $product);  
+     $this->assertArrayHasKey('preco', $product);
+
+
+   
